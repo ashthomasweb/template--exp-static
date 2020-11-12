@@ -1,5 +1,5 @@
 {
-  "name": "test-dnd",
+  "name": "exp-static",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.18.3"
   }
 }
