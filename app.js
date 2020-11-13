@@ -15,7 +15,7 @@ app.get("/", function(req, res) {
 
 
 
-// || Server listener compatible with Heroku, Localhost, and A2
+// || Listener compatible with Heroku, Localhost, and A2
 let port = process.env.PORT;
 if (port === null || port === "") { 
     port = 3000; 
